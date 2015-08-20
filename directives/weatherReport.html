@@ -1,0 +1,11 @@
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">{{ convertToDate({ dt: weatherDay.dt }) | date: dateFormat }}</h3>
+    </div>
+    <div class="panel-body">
+        Daytime temperature: {{ convertToCelsius({ daytimeTemp: weatherDay.temp.day }) }}&#x2103, 
+        Minimum: {{ convertToCelsius({ daytimeTemp: weatherDay.temp.min }) }}&#x2103, 
+        Maximum: {{ convertToCelsius({ daytimeTemp: weatherDay.temp.max }) }}&#x2103, 
+        Night: {{ convertToCelsius({ daytimeTemp: weatherDay.temp.night }) }}&#x2103
+    </div>
+</div>
