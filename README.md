@@ -1,2 +1,2 @@
-# BootstrapLandingPage
-A Twitter Bootstrap Web Landing Page developed when I take an training course and anyone can use the source code.
+# AngularJS_WeatherApp
+An weather app using AngularJS custom directive, custom service, Interpolation, Normalization etc following Single Page Application concept.
